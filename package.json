@@ -9,6 +9,7 @@
   "dependencies": {
     "@loadable/component": "^5.14.1",
     "@loadable/server": "^5.14.2",
+    "@material-ui/core": "^4.12.3",
     "@quintype/arrow": "^3.0.1",
     "@quintype/bridgekeeper-js": "^2.8.1",
     "@quintype/components": "^3.0.0",
@@ -77,6 +78,8 @@
     "analyze-stats": "NODE_ENV=production ANALYZE_STATS=true BABEL_TARGET=browser webpack --profile --mode=production -p",
     "asset-server": "BABEL_TARGET=browser webpack-dev-server --hot",
     "compile": "BABEL_TARGET=browser webpack",
+    "web-view":"run-assets.bat ",
+    "server":"run-backend-server.bat",
     "windows-asset-server": "webpack-dev-server --hot",
     "windows-compile": "webpack",
     "dev-server": "nodemon --watch app/server --watch app/isomorphic --exec 'BABEL_TARGET=node node start.js' --signal SIGHUP",
