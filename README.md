@@ -40,3 +40,4 @@ Here are some considerations while running on windows
 * In case localhost:3000 shows a connection refused, you can forward ports to the `docker-machine` as follows `./dev-docker/port-forward`. This should only be needed on Windows home
 * Windows uses nodemon and webpack polling to detect updates. This eats CPU
 * You can use `./dev-docker/force-reload` to force the web server and webpack to reload
+"# Fastor" 
